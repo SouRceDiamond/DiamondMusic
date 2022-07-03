@@ -60,11 +60,11 @@ async def update_repo(_, message: Message):
     msg = await message.reply("🔄 `جاري جلب معلومات المبرمج  ...`")
     update_avail = updater()
     if update_avail:
-        await msg.edit("👤 يمكن شراء بوت بحقوقك كامل \n\n• او نسخه سورس بحقوقك بأرخص الأسعار حسابي الوحيد : TTTLL0.")
+        await msg.edit("👤 يمكنك شراء بوت بحقوقك كامل \n\n• او نسخه سورس بحقوقك بأرخص الأسعار حسابي الوحيد : BK_ZT.")
         system("git pull -f && pip3 install -r requirements.txt")
         execle(sys.executable, sys.executable, "main.py", environ)
         return
-    await msg.edit("My only **account on ** telegram [X : MOH7MD •](https://t.me/TTTLL0)", disable_web_page_preview=True)
+    await msg.edit("My only **account on ** telegram [X : 𝘿ٌِ𝙀ٓ𝙑 ٰ𝙎𝘼𝙇𝘼𝙃 •](https://t.me/BK_ZT)", disable_web_page_preview=True)
 
 
 @Client.on_message(command(["اعادة", f"restart@{BOT_USERNAME}"]) & ~filters.edited)
