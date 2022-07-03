@@ -68,7 +68,7 @@ async def vplay(c: Client, m: Message):
         ]
     )
     if m.sender_chat:
-        return await m.reply_text("أنت __مجهول__ مشرف !\n\n» العودة إلى حساب المستخدم من حقوق المسؤول.")
+        return await m.reply_text("أنت __مجهول__ مشرف !\n\n» العودة إلى حساب المستخدم من حقوق المسئول.")
     try:
         aing = await c.get_me()
     except Exception as e:
