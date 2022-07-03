@@ -1,5 +1,5 @@
 # Copyright (C) 2021 By VeezMusicProject
-# تم التعريب بواسطه سورس ايــثــون بموجب حقوق النشر تخمط اذكر المصدر لاهينك 
+# تم التعريب بواسطه سورس الماس بموجب حقوق النشر تخمط اذكر المصدر 
 from driver.queues import QUEUE
 from pyrogram import Client, filters
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
@@ -163,7 +163,7 @@ async def cbsudo(_, query: CallbackQuery):
             [[InlineKeyboardButton("🔙 رجوع", callback_data="cbcmds")]]
         ),
     )
-#تم تعريب وتعديل هذا الملف بواسطه مطورين الماس تخمط اختك انيجها 😂
+#تم تعريب وتعديل هذا الملف بواسطه مطورين الماس
 
 @Client.on_callback_query(filters.regex("cbmenu"))
 async def cbmenu(_, query: CallbackQuery):
